@@ -1,2 +1,1 @@
-# vcovo.github.io
-Personal website
+Parked :)
