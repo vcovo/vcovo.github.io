@@ -1,0 +1,4 @@
+baseURL = "https://www.vcovo.com/"
+languageCode = "en-us"
+title = "Vince's"
+theme = "PaperMod"

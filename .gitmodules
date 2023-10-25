@@ -1,0 +1,3 @@
+[submodule "vcovo/themes/PaperMod"]
+	path = vcovo/themes/PaperMod
+	url = https://github.com/adityatelange/hugo-PaperMod.git
