@@ -29,6 +29,9 @@ defaults:
 jobs:
   # Build job
   build:
+    defaults: 
+      run:
+        working-directory: vcovo
     runs-on: ubuntu-latest
     env:
       HUGO_VERSION: 0.119.0
