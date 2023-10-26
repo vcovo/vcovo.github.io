@@ -61,7 +61,8 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v2
         with:
-          path: ./public
+          path: ./vcovo/public
+        
 
   # Deployment job
   deploy:
