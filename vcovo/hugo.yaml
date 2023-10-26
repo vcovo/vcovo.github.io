@@ -1,0 +1,42 @@
+baseURL: "https://www.vcovo.com/"
+languageCode: "en-us"
+title: "Vince's"
+theme: "PaperMod"
+
+params:
+  homeInfoParams:
+    Title: "Hey, I’m Vince 👋"
+    Content: "I'm a Data Engineer with a professional background in Data Science"
+  homeInfoParams.socialIcons:
+    - name: twitter
+      url: "https://twitter.com/"
+    - name: github
+      url: "https://github.com/"
+    - name: linkedin
+      url: "https://www.linkedin.com/in/"
+menu:
+  main:
+    - identifier: home
+      name: Home
+      url: "/"
+      weight: 1
+    - identifier: about
+      name: About
+      url: "/about/"
+      weight: 2
+    - identifier: resume
+      name: Resume
+      url: "/resume/"
+      weight: 3
+    - identifier: projects
+      name: Projects
+      url: "/projects/"
+      weight: 4
+    - identifier: publications
+      name: Publications
+      url: "/publications/"
+      weight: 5
+    - identifier: hobbies
+      name: Hobbies
+      url: "/hobbies/"
+      weight: 6
