@@ -29,9 +29,6 @@ defaults:
 jobs:
   # Build job
   build:
-    defaults: 
-      run:
-        working-directory: vcovo
     runs-on: ubuntu-latest
     env:
       HUGO_VERSION: 0.119.0
@@ -60,6 +57,7 @@ jobs:
           hugo \
             --minify \
             --baseURL "${{ steps.pages.outputs.base_url }}/"
+        working-directory: vcovo
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v2
         with:
