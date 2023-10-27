@@ -22,20 +22,6 @@ params:
       url: "https://scholar.google.com/citations?user=ntTIG5EAAAAJ&hl=en&oi=ao"
 
 
-
-# params:
-#   homeInfoParams:
-#     Title: "Hey, I’m Vince 👋"
-#     Content: "I'm a Data Engineer with a professional background in Data Science"
-
-#   socialIcons:
-#     - name: github
-#       url: "https://github.com/vcovo/"
-#     - name: linkedin
-#       url: "https://www.linkedin.com/in/vcovou/"
-#     - name: googlescholar
-#       url: "https://scholar.google.com/citations?user=ntTIG5EAAAAJ&hl=en&oi=ao"
-
 menu:
   main:
     - identifier: projects
