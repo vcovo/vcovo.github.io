@@ -2,41 +2,55 @@ baseURL: "https://www.vcovo.com/"
 languageCode: "en-us"
 title: "Vince's"
 theme: "PaperMod"
+pluralizelisttitles: false
 
 params:
-  homeInfoParams:
-    Title: "Hey, I’m Vince 👋"
-    Content: "I'm a Data Engineer with a professional background in Data Science"
-  homeInfoParams.socialIcons:
-    - name: twitter
-      url: "https://twitter.com/"
+    profileMode:
+        enabled: true
+        title: "Hey, I’m Vince 👋"
+        subtitle: "I'm a Data Engineer with a professional background in Data Science"
+        # imageUrl: "<image link>" # optional
+        # imageTitle: "<title of image as alt>" # optional
+        # imageWidth: 120 # custom size
+        # imageHeight: 120 # custom size
+    socialIcons:
     - name: github
-      url: "https://github.com/"
+      url: "https://github.com/vcovo/"
     - name: linkedin
-      url: "https://www.linkedin.com/in/"
+      url: "https://www.linkedin.com/in/vcovou/"
+    - name: googlescholar
+      url: "https://scholar.google.com/citations?user=ntTIG5EAAAAJ&hl=en&oi=ao"
+
+
+
+# params:
+#   homeInfoParams:
+#     Title: "Hey, I’m Vince 👋"
+#     Content: "I'm a Data Engineer with a professional background in Data Science"
+
+#   socialIcons:
+#     - name: github
+#       url: "https://github.com/vcovo/"
+#     - name: linkedin
+#       url: "https://www.linkedin.com/in/vcovou/"
+#     - name: googlescholar
+#       url: "https://scholar.google.com/citations?user=ntTIG5EAAAAJ&hl=en&oi=ao"
+
 menu:
   main:
-    - identifier: home
-      name: Home
-      url: "/"
+    - identifier: projects
+      name: Projects
+      url: "/projects/"
       weight: 1
-    - identifier: about
-      name: About
-      url: "/about/"
+    - identifier: research
+      name: Research
+      url: "/research/"
       weight: 2
     - identifier: resume
       name: Resume
       url: "/resume/"
       weight: 3
-    - identifier: projects
-      name: Projects
-      url: "/projects/"
-      weight: 4
-    - identifier: publications
-      name: Publications
-      url: "/publications/"
-      weight: 5
     - identifier: hobbies
       name: Hobbies
       url: "/hobbies/"
-      weight: 6
+      weight: 4
