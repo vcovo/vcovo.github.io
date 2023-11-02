@@ -9,17 +9,20 @@ output:
   dir: "public"
   staticDir: "static"
 
+ShowPostNavLinks: true
 
 params:
     profileMode:
         enabled: true
-        title: "Hey, I’m Vince 🧞‍♂️"
+        title: "Hey, I’m Vince 🌿"
         subtitle: "I'm a Data Engineer with a professional background in Data Science"
         imageUrl: "/android-chrome-512x512.png" # optional
         imageTitle: "VCOVO" # optional
         imageWidth: 120 # custom size
         imageHeight: 120 # custom size
+    
     ShowPostNavLinks: true
+    ShowReadingTime: true
     socialIcons:
     - name: github
       url: "https://github.com/vcovo/"
