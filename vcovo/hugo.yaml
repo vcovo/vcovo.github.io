@@ -20,9 +20,11 @@ params:
         imageTitle: "VCOVO" # optional
         imageWidth: 120 # custom size
         imageHeight: 120 # custom size
-    
+    mainSections: # To make sure that papermod finds the sections to create navigation links for
+      - research
     ShowPostNavLinks: true
     ShowReadingTime: true
+
     socialIcons:
     - name: github
       url: "https://github.com/vcovo/"
