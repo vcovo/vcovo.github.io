@@ -2,12 +2,16 @@
 title = 'A Machine Learning Model for Predicting Threshold Sooting Index of Fuels Containing Alcohols and Ethers'
 date = 2022-08-15
 tags =['machine-learning']
-draft = true
+draft = false
 +++
 
 DOI: [10.1016/j.fuel.2022.123941](https://doi.org/10.1016/j.fuel.2022.123941)  
 
 ## Contribution  
+
+In this project, my role as an advisor was crucial in the development of the artificial neural networks (ANNs) for predicting the threshold sooting index (TSI) of fuels. My background in computer science and data science was vital in ensuring the accuracy and reliability of the ANN model. This task required a meticulous approach to testing and validating the software, which was essential for proper and efficient data processing, model training, and prediction of outcomes.
+
+In addition to this, I also played a substantial role in the writing and review of the paper, particilarly in conveying the technical details of the research. I worked on refining the structure and flow of the paper, ensuring it effectively communicated the significant findings and methodologies to our readers.
 
 ## Abstract  
 
