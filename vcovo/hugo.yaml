@@ -12,12 +12,13 @@ output:
 ShowPostNavLinks: true
 
 params:
+    images: ["/android-chrome-512x512.png"] # image displayed when sharing the link
     profileMode:
         enabled: true
         title: "Hey, I’m Vince 🌿"
         subtitle: "I'm a Data Engineer with a professional background in Data Science"
-        imageUrl: "/android-chrome-512x512.png" # optional
-        imageTitle: "VCOVO" # optional
+        # imageUrl: "/android-chrome-512x512.png" # optional
+        # imageTitle: "VCOVO" # optional
         imageWidth: 120 # custom size
         imageHeight: 120 # custom size
     mainSections: # To make sure that papermod finds the sections to create navigation links for
@@ -36,19 +37,15 @@ params:
 
 menu:
   main:
-    - identifier: projects
-      name: Projects
-      url: "/projects/"
+    - identifier: about
+      name: About
+      url: "/about/"
       weight: 1
     - identifier: research
       name: Research
       url: "/research/"
       weight: 2
-    - identifier: resume
-      name: Resume
-      url: "/resume/"
-      weight: 3
     - identifier: hobbies
       name: Hobbies
       url: "/hobbies/"
-      weight: 4
+      weight: 3
