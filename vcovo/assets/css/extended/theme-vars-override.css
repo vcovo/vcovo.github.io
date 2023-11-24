@@ -1,0 +1,25 @@
+:root {
+    /* Light mode */
+    --theme: rgb(255, 255, 255); /* entry background */
+    --entry: rgb(255, 255, 255); /* content entries */
+    --primary: #305478; /* primary text (headers, etc.) */
+    --secondary: rgb(108, 108, 108); /* secondary text */
+    --tertiary: rgb(214, 214, 214); /* scroller */
+    --content: rgb(31, 31, 31); /* color of plain text */
+    --hljs-bg: rgb(28, 29, 33); /* code highlighting */
+    --code-bg: rgb(245, 245, 245); /* main background and for navigation menu and tags */
+    --border: rgb(238, 238, 238); /*z borders */
+}
+
+.dark {
+    /* Dark mode */
+    --theme: rgb(32, 29, 29); /* main background */
+    --entry: rgb(46, 46, 51); /* content entries */
+    --primary: rgb(99, 133, 167); /* primary text */
+    --secondary: rgb(155, 156, 157); /* secondary text */
+    --tertiary: rgb(65, 66, 68); /* scroller */
+    --content: rgb(196, 196, 197); /* color of plain text */
+    --hljs-bg: rgb(46, 46, 51); /* code highlighting */
+    --code-bg: rgb(55, 56, 62); /* used for navigation menu and tags */
+    --border: rgb(51, 51, 51); /* borders */
+}
