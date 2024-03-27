@@ -2,7 +2,7 @@
     /* Light mode */
     --theme: rgb(255, 255, 255); /* entry background */
     --entry: rgb(255, 255, 255); /* content entries */
-    --primary: #305478; /* primary text (headers, etc.) */
+    --primary: rgb(36, 93, 115); /* primary text (headers, etc.) */
     --secondary: rgb(108, 108, 108); /* secondary text */
     --tertiary: rgb(214, 214, 214); /* scroller */
     --content: rgb(31, 31, 31); /* color of plain text */
@@ -15,7 +15,7 @@
     /* Dark mode */
     --theme: rgb(32, 29, 29); /* main background */
     --entry: rgb(46, 46, 51); /* content entries */
-    --primary: rgb(99, 133, 167); /* primary text */
+    --primary: rgb(78, 152, 163); /* primary text */
     --secondary: rgb(155, 156, 157); /* secondary text */
     --tertiary: rgb(65, 66, 68); /* scroller */
     --content: rgb(196, 196, 197); /* color of plain text */
